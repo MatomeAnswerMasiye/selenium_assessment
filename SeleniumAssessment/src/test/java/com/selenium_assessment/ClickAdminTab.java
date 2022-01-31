@@ -16,7 +16,7 @@ public class ClickAdminTab extends ConfigClass{
 	public void clickAdminTab() {
 		
 		//Get admin tab and click on it
-		WebElement admin_tab = ConfigClass.driver.findElement(By.id(Locators.admin_tab));
+		WebElement admin_tab = driver.findElement(By.id(Locators.admin_tab));
 		admin_tab.click();
 		
 	}
@@ -26,22 +26,22 @@ public class ClickAdminTab extends ConfigClass{
 	public void validateUrl() {
 		
 		//Creates a test
-		ConfigClass.test = ConfigClass.extent.createTest("admin/viewSystemUsers url validation","Validating if url contains " + InstanceVariables.admin_url_path);
+		test = extent.createTest("admin/viewSystemUsers url validation","Validating if url contains " + InstanceVariables.admin_url_path);
 		
 		//A decision block that validates if the url contains admin/viewSystemUsers	
-		if(ConfigClass.driver.getCurrentUrl().contains(InstanceVariables.admin_url_path)) {
-			ConfigClass.result = true;
-			ConfigClass.message = "Url contains " + InstanceVariables.admin_url_path;
+		if(driver.getCurrentUrl().contains(InstanceVariables.admin_url_path)) {
+			result = true;
+			message = "Url contains " + InstanceVariables.admin_url_path;
 		}
 		else {
-			ConfigClass.result = false;
-			ConfigClass.message = "Url does not contain " + InstanceVariables.admin_url_path;
+			result = false;
+			message = "Url does not contain " + InstanceVariables.admin_url_path;
 		}
 		
-		assertTrue(ConfigClass.result);
+		assertTrue(result);
 		
 		//Setting the initial status that will be re-evaluated by the after method in the config class
-		ConfigClass.test.pass(ConfigClass.message);
+		test.pass(message);
 	
 	}
 	
@@ -50,30 +50,30 @@ public class ClickAdminTab extends ConfigClass{
 	public void checkDisplay() {
 		
 		//Creates a test
-		ConfigClass.test = ConfigClass.extent.createTest("Buttons display validation", "Validating if the add, delete, search, reset buttons are be displayed");
+		test = extent.createTest("Buttons display validation", "Validating if the add, delete, search, reset buttons are be displayed");
 		
 		//A hashmap to store the desired the buttons in key-value pairs
 		HashMap<String,WebElement> buttons = new HashMap<String,WebElement>();
-		buttons.put("add",  ConfigClass.driver.findElement(By.id(Locators.add_button)));
-		buttons.put("delete",  ConfigClass.driver.findElement(By.id(Locators.delete_button)));
-		buttons.put("search", ConfigClass.driver.findElement(By.id(Locators.search_button)));
-		buttons.put("reset", ConfigClass.driver.findElement(By.id(Locators.reset_button)));
+		buttons.put("add",  driver.findElement(By.id(Locators.add_button)));
+		buttons.put("delete",  driver.findElement(By.id(Locators.delete_button)));
+		buttons.put("search", driver.findElement(By.id(Locators.search_button)));
+		buttons.put("reset", driver.findElement(By.id(Locators.reset_button)));
 		
 		//Iterates through each button and check if it's displayed
 		for(String button : buttons.keySet()) {
 			if(buttons.get(button).isDisplayed()) {
-				ConfigClass.result = true;
-				ConfigClass.message = button + " button is displayed";
+				result = true;
+				message = button + " button is displayed";
 			}
 			else {
-				ConfigClass.result = false;
-				ConfigClass.message = button + "button is not displayed";
+				result = false;
+				message = button + "button is not displayed";
 			}
 			
-			assertTrue(ConfigClass.result);
+			assertTrue(result);
 			
 			//Setting the initial status that will be re-evaluated by the after method in the config class
-			ConfigClass.test.pass(ConfigClass.message);
+			test.pass(message);
 			
 		}
 				

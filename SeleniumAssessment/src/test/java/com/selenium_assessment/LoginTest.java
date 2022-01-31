@@ -25,17 +25,17 @@ public class LoginTest extends ConfigClass{
 	public void login(String username,String password) {
 
 		//Input username
-		WebElement username_input = ConfigClass.driver.findElement(By.id(Locators.login_username));
+		WebElement username_input = driver.findElement(By.id(Locators.login_username));
 		username_input.clear();
 		username_input.sendKeys(username);
 		
 		//Input password
-		WebElement password_input = ConfigClass.driver.findElement(By.id(Locators.login_password));
+		WebElement password_input = driver.findElement(By.id(Locators.login_password));
 		password_input.clear();
 		password_input.sendKeys(password);
 		
 		//Click on the login button
-		WebElement login_button = ConfigClass.driver.findElement(By.id(Locators.login_button));
+		WebElement login_button = driver.findElement(By.id(Locators.login_button));
 		login_button.click();
 
 	}
@@ -46,22 +46,22 @@ public class LoginTest extends ConfigClass{
 	public void validateUrl() {
 		
 		//Creates a test
-		ConfigClass.test = ConfigClass.extent.createTest("Dashboard keyword validation","Validating if url contains the keyword " + InstanceVariables.keyword);
+		test = extent.createTest("Dashboard keyword validation","Validating if url contains the keyword " + InstanceVariables.keyword);
 		
 		//A decision block that checks if the url contains the dashboard keyword
-		if(ConfigClass.driver.getCurrentUrl().contains(InstanceVariables.keyword)) {	
-			ConfigClass.result = true;
-			ConfigClass.message = "Url contains the keyword " + InstanceVariables.keyword;
+		if(driver.getCurrentUrl().contains(InstanceVariables.keyword)) {	
+			result = true;
+			message = "Url contains the keyword " + InstanceVariables.keyword;
 		}
 		else {
-			ConfigClass.result = false;
-			ConfigClass.message = "Url does not contain the keyword " + InstanceVariables.keyword;
+			result = false;
+			message = "Url does not contain the keyword " + InstanceVariables.keyword;
 		}
 		
-		assertTrue(ConfigClass.result);
+		assertTrue(result);
 		
 		//Setting the initial status that will be re-evaluated by the after method in the config class
-		ConfigClass.test.pass(ConfigClass.message);
+		test.pass(message);
 	
 	}
 	
@@ -70,26 +70,26 @@ public class LoginTest extends ConfigClass{
 	public void checkDisplay() {
 		
 		//Creates a test
-		ConfigClass.test = ConfigClass.extent.createTest("Admin tab validation", "Validating if the admin tab displays");
+		test = extent.createTest("Admin tab validation", "Validating if the admin tab displays");
 		
 		//Locates the admin tab 
-		WebElement admin_tab = ConfigClass.driver.findElement(By.id(Locators.admin_tab));
+		WebElement admin_tab = driver.findElement(By.id(Locators.admin_tab));
 		
 		
 		//A decision block that checks if the tab is displayed
 		if(admin_tab.isDisplayed()) {
-			ConfigClass.result = true;
-			ConfigClass.message = "Admin tab is displayed";
+			result = true;
+			message = "Admin tab is displayed";
 		}
 		else {
-			ConfigClass.result = false;
-			ConfigClass.message = "Admin tab is not displayed";
+			result = false;
+			message = "Admin tab is not displayed";
 		}
 		
-		assertTrue(ConfigClass.result);
+		assertTrue(result);
 		
 		//Setting the initial status that will be re-evaluated by the after method in the config class
-		ConfigClass.test.pass(ConfigClass.message);
+		test.pass(message);
 		
 	}
 	
@@ -97,22 +97,22 @@ public class LoginTest extends ConfigClass{
 	//A method that checks if 'welcome admin' is displayed at the right panel of the app
 	@Test(priority = 4)
 	public void validateWelcomeAdmin() {
-		ConfigClass.test = ConfigClass.extent.createTest("welcome admin validation","Welcome Admin should display at right panel");
-		WebElement welcome_admin = ConfigClass.driver.findElement(By.id(Locators.welcome_admin));
+		test = extent.createTest("welcome admin validation","Welcome Admin should display at right panel");
+		WebElement welcome_admin = driver.findElement(By.id(Locators.welcome_admin));
 		
 		if(welcome_admin.isDisplayed()) {
-			ConfigClass.result = true;
+			result = true;
 			message = "welcome admin is displayed";
 		}
 		else {
-			ConfigClass.result = false;
+			result = false;
 			message = "welcome admin is not displayed";
 		}
 		
-		assertTrue(ConfigClass.result);
+		assertTrue(result);
 		
 		//Setting the initial status that will be re-evaluated by the after method in the config class
-		ConfigClass.test.pass(ConfigClass.message);
+		test.pass(message);
 		
 	}
 	

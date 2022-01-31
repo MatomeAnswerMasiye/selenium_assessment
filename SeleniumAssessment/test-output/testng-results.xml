@@ -2,20 +2,20 @@
 <testng-results ignored="16" total="34" passed="17" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-30T22:46:56 SAST" name="Suite" finished-at="2022-01-30T22:47:49 SAST" duration-ms="53320">
+  <suite started-at="2022-01-31T21:14:33 SAST" name="Suite" finished-at="2022-01-31T21:15:53 SAST" duration-ms="79733">
     <groups>
     </groups>
-    <test started-at="2022-01-30T22:46:56 SAST" name="Test" finished-at="2022-01-30T22:47:49 SAST" duration-ms="53320">
+    <test started-at="2022-01-31T21:14:33 SAST" name="Test" finished-at="2022-01-31T21:15:53 SAST" duration-ms="79733">
       <class name="com.selenium_assessment.ClickAdminTab">
-        <test-method is-config="true" signature="clickAdminTab()[pri:0, instance:com.selenium_assessment.ClickAdminTab@32b260fa]" started-at="2022-01-30T22:47:09 SAST" name="clickAdminTab" finished-at="2022-01-30T22:47:10 SAST" duration-ms="1677" status="PASS">
+        <test-method is-config="true" signature="clickAdminTab()[pri:0, instance:com.selenium_assessment.ClickAdminTab@32b260fa]" started-at="2022-01-31T21:14:50 SAST" name="clickAdminTab" finished-at="2022-01-31T21:14:59 SAST" duration-ms="9022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAdminTab -->
-        <test-method signature="validateUrl()[pri:1, instance:com.selenium_assessment.ClickAdminTab@32b260fa]" started-at="2022-01-30T22:47:10 SAST" name="validateUrl" finished-at="2022-01-30T22:47:10 SAST" duration-ms="7" status="PASS">
+        <test-method signature="validateUrl()[pri:1, instance:com.selenium_assessment.ClickAdminTab@32b260fa]" started-at="2022-01-31T21:14:59 SAST" name="validateUrl" finished-at="2022-01-31T21:14:59 SAST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUrl -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.ClickAdminTab@32b260fa]" started-at="2022-01-30T22:47:10 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:10 SAST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.ClickAdminTab@32b260fa]" started-at="2022-01-31T21:14:59 SAST" name="evaluateStatus" finished-at="2022-01-31T21:14:59 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
-        <test-method signature="checkDisplay()[pri:2, instance:com.selenium_assessment.ClickAdminTab@32b260fa]" started-at="2022-01-30T22:47:10 SAST" name="checkDisplay" finished-at="2022-01-30T22:47:11 SAST" duration-ms="76" status="PASS">
+        <test-method signature="checkDisplay()[pri:2, instance:com.selenium_assessment.ClickAdminTab@32b260fa]" started-at="2022-01-31T21:14:59 SAST" name="checkDisplay" finished-at="2022-01-31T21:14:59 SAST" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDisplay -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.ClickAdminTab@32b260fa]" started-at="2022-01-30T22:47:11 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:11 SAST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.ClickAdminTab@32b260fa]" started-at="2022-01-31T21:14:59 SAST" name="evaluateStatus" finished-at="2022-01-31T21:14:59 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
         </test-method> <!-- evaluateStatus -->
       </class> <!-- com.selenium_assessment.ClickAdminTab -->
       <class name="com.selenium_assessment.CreateUser">
-        <test-method signature="createUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-30T22:47:12 SAST" name="createUser" data-provider="create-user" finished-at="2022-01-30T22:47:15 SAST" duration-ms="3393" status="PASS">
+        <test-method signature="createUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-31T21:15:01 SAST" name="createUser" data-provider="create-user" finished-at="2022-01-31T21:15:04 SAST" duration-ms="3328" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Selenium636]]>
+                <![CDATA[Selenium639]]>
               </value>
             </param>
             <param index="2">
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-30T22:47:15 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:15 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-31T21:15:04 SAST" name="evaluateStatus" finished-at="2022-01-31T21:15:04 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,11 +80,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
-        <test-method signature="validateStatusDropDown()[pri:2, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-30T22:47:15 SAST" name="validateStatusDropDown" finished-at="2022-01-30T22:47:15 SAST" duration-ms="43" status="PASS">
+        <test-method signature="validateStatusDropDown()[pri:2, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-31T21:15:04 SAST" name="validateStatusDropDown" finished-at="2022-01-31T21:15:04 SAST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateStatusDropDown -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-30T22:47:15 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:15 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-31T21:15:04 SAST" name="evaluateStatus" finished-at="2022-01-31T21:15:04 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,11 +95,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
-        <test-method signature="validateUserCreated()[pri:3, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-30T22:47:15 SAST" name="validateUserCreated" finished-at="2022-01-30T22:47:18 SAST" duration-ms="2710" status="PASS">
+        <test-method signature="validateUserCreated()[pri:3, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-31T21:15:04 SAST" name="validateUserCreated" finished-at="2022-01-31T21:15:14 SAST" duration-ms="9138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserCreated -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-30T22:47:18 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:18 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.CreateUser@6d4e5011]" started-at="2022-01-31T21:15:14 SAST" name="evaluateStatus" finished-at="2022-01-31T21:15:14 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,15 +112,15 @@
         </test-method> <!-- evaluateStatus -->
       </class> <!-- com.selenium_assessment.CreateUser -->
       <class name="com.selenium_assessment.Logout">
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.selenium_assessment.Logout@78123e82]" started-at="2022-01-30T22:47:42 SAST" name="logout" finished-at="2022-01-30T22:47:49 SAST" duration-ms="7231" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.selenium_assessment.Logout@78123e82]" started-at="2022-01-31T21:15:44 SAST" name="logout" finished-at="2022-01-31T21:15:53 SAST" duration-ms="8985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="validateUrl()[pri:1, instance:com.selenium_assessment.Logout@78123e82]" started-at="2022-01-30T22:47:49 SAST" name="validateUrl" finished-at="2022-01-30T22:47:49 SAST" duration-ms="9" status="PASS">
+        <test-method signature="validateUrl()[pri:1, instance:com.selenium_assessment.Logout@78123e82]" started-at="2022-01-31T21:15:53 SAST" name="validateUrl" finished-at="2022-01-31T21:15:53 SAST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUrl -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Logout@78123e82]" started-at="2022-01-30T22:47:49 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:49 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Logout@78123e82]" started-at="2022-01-31T21:15:53 SAST" name="evaluateStatus" finished-at="2022-01-31T21:15:53 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,11 +131,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
-        <test-method signature="validateTitle()[pri:2, instance:com.selenium_assessment.Logout@78123e82]" started-at="2022-01-30T22:47:49 SAST" name="validateTitle" finished-at="2022-01-30T22:47:49 SAST" duration-ms="6" status="PASS">
+        <test-method signature="validateTitle()[pri:2, instance:com.selenium_assessment.Logout@78123e82]" started-at="2022-01-31T21:15:53 SAST" name="validateTitle" finished-at="2022-01-31T21:15:53 SAST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Logout@78123e82]" started-at="2022-01-30T22:47:49 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:49 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Logout@78123e82]" started-at="2022-01-31T21:15:53 SAST" name="evaluateStatus" finished-at="2022-01-31T21:15:53 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -148,15 +148,15 @@
         </test-method> <!-- evaluateStatus -->
       </class> <!-- com.selenium_assessment.Logout -->
       <class name="com.selenium_assessment.Search">
-        <test-method is-config="true" signature="searchForUser()[pri:0, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-30T22:47:18 SAST" name="searchForUser" finished-at="2022-01-30T22:47:25 SAST" duration-ms="7103" status="PASS">
+        <test-method is-config="true" signature="searchForUser()[pri:0, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-31T21:15:14 SAST" name="searchForUser" finished-at="2022-01-31T21:15:24 SAST" duration-ms="10570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForUser -->
-        <test-method signature="validateUsername()[pri:1, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-30T22:47:25 SAST" name="validateUsername" finished-at="2022-01-30T22:47:25 SAST" duration-ms="26" status="PASS">
+        <test-method signature="validateUsername()[pri:1, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-31T21:15:24 SAST" name="validateUsername" finished-at="2022-01-31T21:15:24 SAST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUsername -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-30T22:47:25 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:25 SAST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-31T21:15:24 SAST" name="evaluateStatus" finished-at="2022-01-31T21:15:24 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
-        <test-method signature="employeeName()[pri:2, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-30T22:47:25 SAST" name="employeeName" finished-at="2022-01-30T22:47:25 SAST" duration-ms="21" status="FAIL">
+        <test-method signature="employeeName()[pri:2, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-31T21:15:24 SAST" name="employeeName" finished-at="2022-01-31T21:15:24 SAST" duration-ms="15" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[did not expect to find [true] but found [false]]]>
@@ -213,7 +213,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- employeeName -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-30T22:47:25 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:25 SAST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-31T21:15:24 SAST" name="evaluateStatus" finished-at="2022-01-31T21:15:24 SAST" duration-ms="104" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -224,11 +224,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
-        <test-method signature="validateStatus()[pri:3, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-30T22:47:25 SAST" name="validateStatus" finished-at="2022-01-30T22:47:25 SAST" duration-ms="23" status="PASS">
+        <test-method signature="validateStatus()[pri:3, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-31T21:15:24 SAST" name="validateStatus" finished-at="2022-01-31T21:15:24 SAST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateStatus -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-30T22:47:25 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:25 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Search@57d7f8ca]" started-at="2022-01-31T21:15:24 SAST" name="evaluateStatus" finished-at="2022-01-31T21:15:24 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,25 +241,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- evaluateStatus -->
       </class> <!-- com.selenium_assessment.Search -->
       <class name="com.selenium_assessment.ConfigClass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium_assessment.ConfigClass@63a12c68]" started-at="2022-01-30T22:46:54 SAST" name="setUp" finished-at="2022-01-30T22:46:56 SAST" duration-ms="2277" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium_assessment.ConfigClass@63a12c68]" started-at="2022-01-31T21:14:31 SAST" name="setUp" finished-at="2022-01-31T21:14:33 SAST" duration-ms="1887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="wrapUp()[pri:0, instance:com.selenium_assessment.ConfigClass@63a12c68]" started-at="2022-01-30T22:47:49 SAST" name="wrapUp" finished-at="2022-01-30T22:47:54 SAST" duration-ms="5272" status="PASS">
+        <test-method is-config="true" signature="wrapUp()[pri:0, instance:com.selenium_assessment.ConfigClass@63a12c68]" started-at="2022-01-31T21:15:53 SAST" name="wrapUp" finished-at="2022-01-31T21:15:58 SAST" duration-ms="5225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrapUp -->
       </class> <!-- com.selenium_assessment.ConfigClass -->
       <class name="com.selenium_assessment.ClickOnAdd">
-        <test-method is-config="true" signature="clickAddButton()[pri:0, instance:com.selenium_assessment.ClickOnAdd@581ac8a8]" started-at="2022-01-30T22:47:11 SAST" name="clickAddButton" finished-at="2022-01-30T22:47:12 SAST" duration-ms="953" status="PASS">
+        <test-method is-config="true" signature="clickAddButton()[pri:0, instance:com.selenium_assessment.ClickOnAdd@581ac8a8]" started-at="2022-01-31T21:14:59 SAST" name="clickAddButton" finished-at="2022-01-31T21:15:01 SAST" duration-ms="2455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAddButton -->
-        <test-method signature="validateUrlPath()[pri:1, instance:com.selenium_assessment.ClickOnAdd@581ac8a8]" started-at="2022-01-30T22:47:12 SAST" name="validateUrlPath" finished-at="2022-01-30T22:47:12 SAST" duration-ms="8" status="PASS">
+        <test-method signature="validateUrlPath()[pri:1, instance:com.selenium_assessment.ClickOnAdd@581ac8a8]" started-at="2022-01-31T21:15:01 SAST" name="validateUrlPath" finished-at="2022-01-31T21:15:01 SAST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUrlPath -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.ClickOnAdd@581ac8a8]" started-at="2022-01-30T22:47:12 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:12 SAST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.ClickOnAdd@581ac8a8]" started-at="2022-01-31T21:15:01 SAST" name="evaluateStatus" finished-at="2022-01-31T21:15:01 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -270,11 +270,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
-        <test-method signature="checkDisplay()[pri:2, instance:com.selenium_assessment.ClickOnAdd@581ac8a8]" started-at="2022-01-30T22:47:12 SAST" name="checkDisplay" finished-at="2022-01-30T22:47:12 SAST" duration-ms="20" status="PASS">
+        <test-method signature="checkDisplay()[pri:2, instance:com.selenium_assessment.ClickOnAdd@581ac8a8]" started-at="2022-01-31T21:15:01 SAST" name="checkDisplay" finished-at="2022-01-31T21:15:01 SAST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDisplay -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.ClickOnAdd@581ac8a8]" started-at="2022-01-30T22:47:12 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:12 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.ClickOnAdd@581ac8a8]" started-at="2022-01-31T21:15:01 SAST" name="evaluateStatus" finished-at="2022-01-31T21:15:01 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,8 +286,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
       </class> <!-- com.selenium_assessment.ClickOnAdd -->
+      <class name="com.selenium_assessment.Delete">
+        <test-method is-config="true" signature="delete()[pri:0, instance:com.selenium_assessment.Delete@76c3e77a]" started-at="2022-01-31T21:15:24 SAST" name="delete" finished-at="2022-01-31T21:15:36 SAST" duration-ms="11609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method signature="validateNoRecords()[pri:0, instance:com.selenium_assessment.Delete@76c3e77a]" started-at="2022-01-31T21:15:36 SAST" name="validateNoRecords" finished-at="2022-01-31T21:15:44 SAST" duration-ms="7911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNoRecords -->
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Delete@76c3e77a]" started-at="2022-01-31T21:15:44 SAST" name="evaluateStatus" finished-at="2022-01-31T21:15:44 SAST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNoRecords status=SUCCESS method=Delete.validateNoRecords()[pri:0, instance:com.selenium_assessment.Delete@76c3e77a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluateStatus -->
+      </class> <!-- com.selenium_assessment.Delete -->
       <class name="com.selenium_assessment.LoginTest">
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-30T22:47:02 SAST" name="login" data-provider="data-provider" finished-at="2022-01-30T22:47:09 SAST" duration-ms="7126" status="PASS">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-31T21:14:40 SAST" name="login" data-provider="data-provider" finished-at="2022-01-31T21:14:49 SAST" duration-ms="9734" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -303,7 +324,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-30T22:47:09 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:09 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-31T21:14:49 SAST" name="evaluateStatus" finished-at="2022-01-31T21:14:49 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -314,15 +335,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
-        <test-method signature="validateUrl()[pri:2, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-30T22:47:09 SAST" name="validateUrl" finished-at="2022-01-30T22:47:09 SAST" duration-ms="6" status="PASS">
+        <test-method signature="validateUrl()[pri:2, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-31T21:14:49 SAST" name="validateUrl" finished-at="2022-01-31T21:14:49 SAST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUrl -->
-        <test-method signature="checkDisplay()[pri:3, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-30T22:47:09 SAST" name="checkDisplay" finished-at="2022-01-30T22:47:09 SAST" duration-ms="34" status="PASS">
+        <test-method signature="checkDisplay()[pri:3, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-31T21:14:49 SAST" name="checkDisplay" finished-at="2022-01-31T21:14:50 SAST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDisplay -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-30T22:47:09 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:09 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-31T21:14:49 SAST" name="evaluateStatus" finished-at="2022-01-31T21:14:49 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -333,7 +354,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-30T22:47:09 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:09 SAST" duration-ms="0" status="PASS">
+        <test-method signature="validateWelcomeAdmin()[pri:4, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-31T21:14:50 SAST" name="validateWelcomeAdmin" finished-at="2022-01-31T21:14:50 SAST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomeAdmin -->
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-31T21:14:50 SAST" name="evaluateStatus" finished-at="2022-01-31T21:14:50 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -344,11 +369,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
-        <test-method signature="validateWelcomeAdmin()[pri:4, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-30T22:47:09 SAST" name="validateWelcomeAdmin" finished-at="2022-01-30T22:47:09 SAST" duration-ms="29" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateWelcomeAdmin -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-30T22:47:09 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:09 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.LoginTest@1b1426f4]" started-at="2022-01-31T21:14:50 SAST" name="evaluateStatus" finished-at="2022-01-31T21:14:50 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -360,33 +381,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- evaluateStatus -->
       </class> <!-- com.selenium_assessment.LoginTest -->
-      <class name="com.selenium_assessment.Delete">
-        <test-method is-config="true" signature="delete()[pri:0, instance:com.selenium_assessment.Delete@76c3e77a]" started-at="2022-01-30T22:47:25 SAST" name="delete" finished-at="2022-01-30T22:47:35 SAST" duration-ms="10224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delete -->
-        <test-method signature="validateNoRecords()[pri:0, instance:com.selenium_assessment.Delete@76c3e77a]" started-at="2022-01-30T22:47:35 SAST" name="validateNoRecords" finished-at="2022-01-30T22:47:42 SAST" duration-ms="6707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateNoRecords -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.Delete@76c3e77a]" started-at="2022-01-30T22:47:42 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:42 SAST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateNoRecords status=SUCCESS method=Delete.validateNoRecords()[pri:0, instance:com.selenium_assessment.Delete@76c3e77a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- evaluateStatus -->
-      </class> <!-- com.selenium_assessment.Delete -->
       <class name="com.selenium_assessment.OpenApplication">
-        <test-method signature="openUrl()[pri:0, instance:com.selenium_assessment.OpenApplication@28f3b248]" started-at="2022-01-30T22:46:56 SAST" name="openUrl" finished-at="2022-01-30T22:47:02 SAST" duration-ms="5701" status="PASS">
+        <test-method signature="openUrl()[pri:0, instance:com.selenium_assessment.OpenApplication@28f3b248]" started-at="2022-01-31T21:14:33 SAST" name="openUrl" finished-at="2022-01-31T21:14:40 SAST" duration-ms="6611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.OpenApplication@28f3b248]" started-at="2022-01-30T22:47:02 SAST" name="evaluateStatus" finished-at="2022-01-30T22:47:02 SAST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.selenium_assessment.OpenApplication@28f3b248]" started-at="2022-01-31T21:14:40 SAST" name="evaluateStatus" finished-at="2022-01-31T21:14:40 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>

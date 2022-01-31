@@ -14,17 +14,17 @@ public class Delete extends ConfigClass{
 	public void delete() throws InterruptedException {
 
 		//Check the record
-		WebElement checkbox = ConfigClass.driver.findElement(By.name(Locators.delete_checkbox));
+		WebElement checkbox = driver.findElement(By.name(Locators.delete_checkbox));
 		Thread.sleep(3000);
 		checkbox.click();
 
 		//Click the delete button
-		WebElement delete_button = ConfigClass.driver.findElement(By.id(Locators.delete_button));
+		WebElement delete_button = driver.findElement(By.id(Locators.delete_button));
 		Thread.sleep(3000);
 		delete_button.click();
 
 		//Delete confirmation
-		WebElement delete_confirmation_button = ConfigClass.driver.findElement(By.id(Locators.delete_confirmation_button));
+		WebElement delete_confirmation_button = driver.findElement(By.id(Locators.delete_confirmation_button));
 		Thread.sleep(3000);
 		delete_confirmation_button.click();
 
@@ -34,37 +34,37 @@ public class Delete extends ConfigClass{
 	@Test
 	public void validateNoRecords() throws InterruptedException {
 		
-		ConfigClass.test = ConfigClass.extent.createTest("No records validation","Validating if we will get the 'No records found' message");
+		test = extent.createTest("No records validation","Validating if we will get the 'No records found' message");
 		
 		Thread.sleep(3000);
 
 		//Go to search box and search previously deleted record
 		//SearchBox
-		WebElement search_box = ConfigClass.driver.findElement(By.id(Locators.search_box));
+		WebElement search_box = driver.findElement(By.id(Locators.search_box));
 		search_box.clear();
 		search_box.sendKeys(InstanceVariables.username);
 
 		//Locates and clicks on the search button
-		WebElement search_button = ConfigClass.driver.findElement(By.id(Locators.search_button));
+		WebElement search_button = driver.findElement(By.id(Locators.search_button));
 		Thread.sleep(3000);
 		search_button.click();
 
 		//Locates the no record found message
-		WebElement no_record_message = ConfigClass.driver.findElement(By.xpath(Locators.no_record_message));
+		WebElement no_record_message = driver.findElement(By.xpath(Locators.no_record_message));
 		
 		//A decision block that evaluates if the 'No records found message' is displayed or not
 		if(no_record_message.isDisplayed()) {
-			ConfigClass.result = true;
-			ConfigClass.message = "No Records Found Message is displayed";
+			result = true;
+			message = "No Records Found Message is displayed";
 		}else {
-			ConfigClass.result = false;
-			ConfigClass.message = "No Records Found Message is not displayed";
+			result = false;
+			message = "No Records Found Message is not displayed";
 		}
 		
-		assertTrue(ConfigClass.result);
+		assertTrue(result);
 		
 		//Setting the initial status that will be re-evaluated by the after method in the config class
-		ConfigClass.test.pass(message);
+		test.pass(message);
 		
 	}
 

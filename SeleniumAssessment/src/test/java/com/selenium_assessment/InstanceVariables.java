@@ -11,7 +11,7 @@ public class InstanceVariables {
 	final static String add_url_path = "saveSystemUser";
 	final static String user_role = "ESS";
 	final static String employee_name = "Jasmine Morgan";
-	final static String username = "Selenium636";
+	final static String username = "Selenium639";
 	final static String password = "Selenium500";
 	final static String confirm_password = "Selenium500";
 	final static String desired_selected_status = "Enabled";

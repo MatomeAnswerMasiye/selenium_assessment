@@ -16,7 +16,7 @@ public class ClickOnAdd extends ConfigClass{
 	public void clickAddButton() {
 		
 		//Get the add button and click on it
-		WebElement add_button = ConfigClass.driver.findElement(By.id(Locators.add_button));
+		WebElement add_button = driver.findElement(By.id(Locators.add_button));
 		add_button.click();
 		
 	}
@@ -26,22 +26,22 @@ public class ClickOnAdd extends ConfigClass{
 	public void validateUrlPath() {
 		
 		//Creates a test
-		ConfigClass.test = ConfigClass.extent.createTest("saveSystemUser url validation","Validating if url contains saveSystemUser");
+		test = extent.createTest("saveSystemUser url validation","Validating if url contains saveSystemUser");
 
 		//A decision block that evaluates if the url contains the desired keyword
-		if(ConfigClass.driver.getCurrentUrl().contains(InstanceVariables.add_url_path)) {
-			ConfigClass.result = true;
-			ConfigClass.message = "Url contains saveSystemUser";
+		if(driver.getCurrentUrl().contains(InstanceVariables.add_url_path)) {
+			result = true;
+			message = "Url contains saveSystemUser";
 		}
 		else {
-			ConfigClass.result = false;
-			ConfigClass.message = "Url does not contain saveSystemUser";
+			result = false;
+			message = "Url does not contain saveSystemUser";
 		}
 		
-		Assert.assertTrue(ConfigClass.result);
+		Assert.assertTrue(result);
 		
 		//Setting the initial status that will be re-evaluated by the after method in the config class
-		ConfigClass.test.pass(ConfigClass.message);
+		test.pass(message);
 	
 	}
 	
@@ -50,28 +50,28 @@ public class ClickOnAdd extends ConfigClass{
 	public void checkDisplay() {
 		
 		//Creates a test
-		ConfigClass.test = ConfigClass.extent.createTest("H1 display validation", "Validating if add user h1 is displayed");
+		test = extent.createTest("H1 display validation", "Validating if add user h1 is displayed");
 		
 		//Locates the h1 text
-		WebElement add_user_h1 = ConfigClass.driver.findElement(By.id(Locators.add_user_h1));
+		WebElement add_user_h1 = driver.findElement(By.id(Locators.add_user_h1));
 
 		//A decision block that evaluates if the h1 text is displayed
 		if(add_user_h1.isDisplayed()) {
 			
-			ConfigClass.result = true;
-			ConfigClass.message = "the add user h1 is displayed";
+			result = true;
+			message = "the add user h1 is displayed";
 			
 		}
 		
 		else {
-			ConfigClass.result = false;
-			ConfigClass.message = "the add user h1 is not displayed";
+			result = false;
+			message = "the add user h1 is not displayed";
 		}
 		
-		assertTrue(ConfigClass.result);
+		assertTrue(result);
 		
 		//Setting the initial status that will be re-evaluated by the after method in the config class
-		ConfigClass.test.pass(ConfigClass.message);
+		test.pass(message);
 			
 	}
 	

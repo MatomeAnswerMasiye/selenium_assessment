@@ -15,13 +15,13 @@ public class Logout extends ConfigClass{
 	public void logout() throws InterruptedException {
 
 		//Click on welcome admin
-		WebElement welcome_admin = ConfigClass.driver.findElement(By.id(Locators.welcome_admin));
+		WebElement welcome_admin = driver.findElement(By.id(Locators.welcome_admin));
 		Thread.sleep(3000);
 		welcome_admin.click();
 
 		//Click on logout
 		Thread.sleep(3000);
-		WebElement logout_button = ConfigClass.driver.findElement(By.linkText("Logout"));
+		WebElement logout_button = driver.findElement(By.linkText("Logout"));
 		logout_button.click();
 		
 	}
@@ -31,22 +31,22 @@ public class Logout extends ConfigClass{
 	public void validateUrl() {
 		
 		//Creates a tets
-		ConfigClass.test = ConfigClass.extent.createTest("Url validation","Validating if the url contains " + InstanceVariables.post_logout_url_keyword + " after logout");
+		test = extent.createTest("Url validation","Validating if the url contains " + InstanceVariables.post_logout_url_keyword + " after logout");
 
 		//A decision block that evaluates if the url contains the desired keyword
-		if(ConfigClass.driver.getCurrentUrl().contains(InstanceVariables.post_logout_url_keyword)) {
-			ConfigClass.result = true;
-			ConfigClass.message = "Url contains 'login'";
+		if(driver.getCurrentUrl().contains(InstanceVariables.post_logout_url_keyword)) {
+			result = true;
+			message = "Url contains 'login'";
 		}
 		else {
-			ConfigClass.result = false;
-			ConfigClass.message = "Url does not contain 'login'";
+			result = false;
+			message = "Url does not contain 'login'";
 		}
 		
-		assertTrue(ConfigClass.result);
+		assertTrue(result);
 		
 		//Setting the initial status that will be re-evaluated by the after method in the config class
-		ConfigClass.test.pass(ConfigClass.message);
+		test.pass(message);
 		
 	}
 	
@@ -55,22 +55,22 @@ public class Logout extends ConfigClass{
 	public void validateTitle() {
 		
 		//Creates a test
-		ConfigClass.test = ConfigClass.extent.createTest("title validation after logout","Validating if the actual title matches the expected title after logout");
+		test = extent.createTest("title validation after logout","Validating if the actual title matches the expected title after logout");
 		
 		//A decision block that evaluates if the actual title matches the expected title
-		if(ConfigClass.driver.getTitle().equals(InstanceVariables.expected_title)) {
-			ConfigClass.result = true;
-			ConfigClass.message = "Actual title matches expected title";
+		if(driver.getTitle().equals(InstanceVariables.expected_title)) {
+			result = true;
+			message = "Actual title matches expected title";
 		}
 		else {
-			ConfigClass.result = false;
-			ConfigClass.message = "Actual title does not match expected title";
+			result = false;
+			message = "Actual title does not match expected title";
 		}
 		
-		assertTrue(ConfigClass.result);
+		assertTrue(result);
 		
 		//Setting the initial status that will be re-evaluated by the after method in the config class
-		ConfigClass.test.pass(ConfigClass.message);
+		test.pass(message);
 			
 	}
 
