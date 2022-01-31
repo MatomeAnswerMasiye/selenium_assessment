@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test" group-by-instances="true">
+		<classes>
+			<class name="com.selenium_assessment.ConfigClass" />
+			<class name="com.selenium_assessment.OpenApplication" />
+			<class name="com.selenium_assessment.LoginTest" />
+			<class name="com.selenium_assessment.ClickAdminTab" />
+			<class name="com.selenium_assessment.ClickOnAdd" />
+			<class name="com.selenium_assessment.CreateUser" />
+			<class name="com.selenium_assessment.Search" />
+			<class name="com.selenium_assessment.Delete" />
+			<class name="com.selenium_assessment.Logout" /> 
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

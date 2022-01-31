@@ -1,0 +1,348 @@
+[INFO ] 2022-01-28 00:09:57.930 [main] OpenApplication - null
+[INFO ] 2022-01-28 01:42:34.308 [main] OpenApplication - null
+[INFO ] 2022-01-28 01:42:36.329 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-28 01:53:25.282 [main] OpenApplication - null
+[INFO ] 2022-01-28 01:53:27.444 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-28 01:58:03.452 [main] OpenApplication - null
+[INFO ] 2022-01-28 01:58:05.752 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-28 09:33:10.530 [main] OpenApplication - null
+[INFO ] 2022-01-28 09:33:12.221 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-28 09:35:19.948 [main] OpenApplication - null
+[INFO ] 2022-01-28 09:35:22.246 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-28 09:38:18.537 [main] OpenApplication - 
+[INFO ] 2022-01-28 09:38:20.092 [main] OpenApplication - 
+[INFO ] 2022-01-28 09:40:02.088 [main] OpenApplication - null
+[INFO ] 2022-01-28 09:40:04.233 [main] OpenApplication - 
+[INFO ] 2022-01-28 09:45:48.966 [main] OpenApplication - null
+[INFO ] 2022-01-28 09:45:51.294 [main] OpenApplication - 
+[INFO ] 2022-01-28 09:48:37.237 [main] OpenApplication - null
+[INFO ] 2022-01-28 09:48:39.151 [main] OpenApplication - 
+[INFO ] 2022-01-28 09:50:43.371 [main] OpenApplication - null
+[INFO ] 2022-01-28 09:53:15.973 [main] OpenApplication - null
+[INFO ] 2022-01-28 10:02:27.450 [main] OpenApplication - null
+[INFO ] 2022-01-28 10:09:15.536 [main] OpenApplication - null
+[INFO ] 2022-01-28 10:45:47.971 [main] OpenApplication - null
+[INFO ] 2022-01-28 11:29:34.756 [main] OpenApplication - null
+[INFO ] 2022-01-28 12:14:34.431 [main] OpenApplication - null
+[INFO ] 2022-01-28 12:17:11.859 [main] OpenApplication - null
+[INFO ] 2022-01-28 12:17:13.964 [main] OpenApplication - null
+[INFO ] 2022-01-28 12:23:09.538 [main] OpenApplication - null
+[INFO ] 2022-01-28 13:21:51.063 [main] OpenApplication - Status dropdown is not selected to enable
+[INFO ] 2022-01-28 13:54:49.248 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-28 13:54:49.270 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-28 13:54:49.282 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-28 13:54:49.292 [main] OpenApplication - null
+[INFO ] 2022-01-28 13:54:49.297 [main] OpenApplication - Url does not contain admin/viewSystemUsers
+[INFO ] 2022-01-28 13:54:49.308 [main] OpenApplication - Url does not contain admin/viewSystemUsers
+[INFO ] 2022-01-28 13:54:49.316 [main] OpenApplication - null
+[INFO ] 2022-01-28 13:54:49.321 [main] OpenApplication - Url does not contain saveSystemUser
+[INFO ] 2022-01-28 13:54:49.331 [main] OpenApplication - Url does not contain saveSystemUser
+[INFO ] 2022-01-28 13:54:49.341 [main] OpenApplication - null
+[INFO ] 2022-01-28 13:54:49.350 [main] OpenApplication - null
+[INFO ] 2022-01-28 17:36:58.959 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-28 17:36:58.976 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-28 17:36:58.986 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-28 17:36:58.993 [main] OpenApplication - null
+[INFO ] 2022-01-28 17:36:58.997 [main] OpenApplication - Url does not contain admin/viewSystemUsers
+[INFO ] 2022-01-28 17:36:59.006 [main] OpenApplication - Url does not contain admin/viewSystemUsers
+[INFO ] 2022-01-28 17:36:59.015 [main] OpenApplication - null
+[INFO ] 2022-01-28 17:36:59.020 [main] OpenApplication - Url does not contain saveSystemUser
+[INFO ] 2022-01-28 17:36:59.030 [main] OpenApplication - Url does not contain saveSystemUser
+[INFO ] 2022-01-28 17:36:59.042 [main] OpenApplication - null
+[INFO ] 2022-01-28 17:36:59.052 [main] OpenApplication - null
+[INFO ] 2022-01-29 08:59:41.144 [main] OpenApplication - Url does not contain admin/viewSystemUsers
+[INFO ] 2022-01-29 08:59:41.162 [main] OpenApplication - Url does not contain admin/viewSystemUsers
+[INFO ] 2022-01-29 08:59:41.171 [main] OpenApplication - null
+[INFO ] 2022-01-29 08:59:41.176 [main] OpenApplication - Url does not contain saveSystemUser
+[INFO ] 2022-01-29 08:59:41.186 [main] OpenApplication - Url does not contain saveSystemUser
+[INFO ] 2022-01-29 08:59:41.197 [main] OpenApplication - null
+[INFO ] 2022-01-29 08:59:41.207 [main] OpenApplication - null
+[INFO ] 2022-01-29 09:11:11.568 [main] OpenApplication - null
+[INFO ] 2022-01-29 09:12:13.010 [main] OpenApplication - null
+[INFO ] 2022-01-29 09:15:40.970 [main] OpenApplication - null
+[INFO ] 2022-01-29 09:17:58.320 [main] OpenApplication - null
+[INFO ] 2022-01-29 09:37:13.629 [main] OpenApplication - null
+[INFO ] 2022-01-29 09:39:42.673 [main] OpenApplication - null
+[INFO ] 2022-01-29 10:06:03.232 [main] OpenApplication - null
+[INFO ] 2022-01-29 10:26:41.964 [main] OpenApplication - Url does not contain 'login'
+[INFO ] 2022-01-29 10:35:18.560 [main] OpenApplication - Actual title does not match expected title
+[INFO ] 2022-01-29 10:56:33.881 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-29 10:56:33.903 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-29 10:56:33.914 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-29 10:56:33.922 [main] OpenApplication - null
+[INFO ] 2022-01-29 10:56:33.926 [main] OpenApplication - Url does not contain admin/viewSystemUsers
+[INFO ] 2022-01-29 10:56:33.936 [main] OpenApplication - Url does not contain admin/viewSystemUsers
+[INFO ] 2022-01-29 10:56:33.946 [main] OpenApplication - null
+[INFO ] 2022-01-29 10:56:33.950 [main] OpenApplication - Url does not contain saveSystemUser
+[INFO ] 2022-01-29 10:56:33.959 [main] OpenApplication - Url does not contain saveSystemUser
+[INFO ] 2022-01-29 10:56:33.971 [main] OpenApplication - null
+[INFO ] 2022-01-29 10:56:33.983 [main] OpenApplication - null
+[INFO ] 2022-01-29 10:56:37.024 [main] OpenApplication - null
+[INFO ] 2022-01-29 10:56:37.030 [main] OpenApplication - Url does not contain 'login'
+[INFO ] 2022-01-29 13:30:08.835 [main] OpenApplication - status does not match the expected status
+[INFO ] 2022-01-29 13:33:01.999 [main] OpenApplication - null
+[INFO ] 2022-01-29 13:33:02.009 [main] OpenApplication - null
+[INFO ] 2022-01-29 13:33:02.017 [main] OpenApplication - null
+[INFO ] 2022-01-29 13:33:02.024 [main] OpenApplication - null
+[INFO ] 2022-01-29 13:34:09.537 [main] OpenApplication - null
+[INFO ] 2022-01-29 13:34:09.549 [main] OpenApplication - null
+[INFO ] 2022-01-29 13:34:09.560 [main] OpenApplication - null
+[INFO ] 2022-01-29 13:34:09.569 [main] OpenApplication - null
+[INFO ] 2022-01-29 13:35:51.869 [main] OpenApplication - Username does not match the expected username
+[INFO ] 2022-01-29 13:35:51.886 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 13:35:51.903 [main] OpenApplication - status does not match the expected status
+[INFO ] 2022-01-29 20:17:48.826 [main] OpenApplication - Actual title does not match the expected title
+[INFO ] 2022-01-29 20:18:01.029 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:18:13.245 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:18:25.396 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:18:37.592 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:18:49.788 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:19:01.997 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:19:14.218 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:19:26.409 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:19:38.594 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:19:41.304 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:19:50.791 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:19:53.513 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:20:02.966 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:20:05.724 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:20:17.906 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:20:18.184 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:20:30.091 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:20:30.400 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:20:42.277 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:20:42.588 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:20:54.417 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:20:54.761 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:21:06.642 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:21:18.807 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:21:19.103 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:21:30.990 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:21:31.271 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:21:43.132 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:21:43.428 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:21:58.294 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:22:10.460 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:22:22.649 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:22:34.832 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:23:09.876 [main] OpenApplication - Actual title does not match the expected title
+[INFO ] 2022-01-29 20:23:32.585 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:23:32.599 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:23:32.610 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:23:32.618 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:24:42.084 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:24:42.095 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:24:42.103 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:24:42.111 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:42:14.998 [main] OpenApplication - Actual title does not match the expected title
+[INFO ] 2022-01-29 20:45:32.266 [main] OpenApplication - null
+[INFO ] 2022-01-29 20:49:25.463 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 21:20:20.415 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 21:20:31.853 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 21:48:26.985 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 21:48:38.657 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 21:55:44.854 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 21:55:56.238 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 21:59:00.141 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 21:59:12.066 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:11:04.867 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 22:11:17.990 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:15:34.614 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:21:49.507 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:26:20.256 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:29:28.925 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:32:05.832 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:33:49.955 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 22:33:57.634 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 22:33:57.653 [main] OpenApplication - Username does not match the expected username
+[INFO ] 2022-01-29 22:33:57.668 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:41:23.143 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:43:11.707 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 22:43:19.034 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 22:43:19.053 [main] OpenApplication - Username does not match the expected username
+[INFO ] 2022-01-29 22:43:19.070 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:46:47.285 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 22:46:54.612 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 22:46:54.628 [main] OpenApplication - Username does not match the expected username
+[INFO ] 2022-01-29 22:46:54.644 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:49:52.971 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 22:50:00.362 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 22:50:00.378 [main] OpenApplication - Username does not match the expected username
+[INFO ] 2022-01-29 22:50:00.395 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:54:05.084 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:56:47.860 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 22:58:44.865 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 22:58:52.200 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 22:58:52.217 [main] OpenApplication - Username does not match the expected username
+[INFO ] 2022-01-29 22:58:52.232 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 23:00:42.693 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 23:00:50.267 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 23:00:50.278 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 23:00:50.289 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 23:00:50.299 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 23:05:24.219 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 23:05:31.574 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 23:05:31.588 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 23:05:31.597 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 23:05:31.608 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 23:07:47.659 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-29 23:07:55.068 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-29 23:07:55.089 [main] OpenApplication - Username does not match the expected username
+[INFO ] 2022-01-29 23:07:55.109 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 23:15:47.051 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 23:19:32.603 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-29 23:22:22.318 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 00:19:41.714 [main] OpenApplication - null
+[INFO ] 2022-01-30 00:19:41.729 [main] OpenApplication - null
+[INFO ] 2022-01-30 00:19:41.736 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-30 00:19:41.747 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-30 00:19:41.761 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-30 00:23:48.529 [main] OpenApplication - null
+[INFO ] 2022-01-30 00:23:48.544 [main] OpenApplication - null
+[INFO ] 2022-01-30 00:23:48.552 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-30 00:23:48.563 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-30 00:23:48.574 [main] OpenApplication - Url does not contain the keyword dashboard
+[INFO ] 2022-01-30 00:38:56.507 [main] OpenApplication - Actual title matches the expected title
+[INFO ] 2022-01-30 00:39:03.094 [main] OpenApplication - Actual title matches the expected title
+[INFO ] 2022-01-30 00:39:03.099 [main] OpenApplication - Url contains the keyword dashboard
+[INFO ] 2022-01-30 00:39:03.130 [main] OpenApplication - Admin tab is displayed
+[INFO ] 2022-01-30 00:39:03.140 [main] OpenApplication - Admin tab is displayed
+[INFO ] 2022-01-30 14:50:59.145 [main] OpenApplication - Url does not contain the keyword dashbord
+[INFO ] 2022-01-30 14:50:59.184 [main] OpenApplication - failed
+[INFO ] 2022-01-30 14:54:48.135 [main] OpenApplication - failed
+[INFO ] 2022-01-30 14:54:50.549 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-30 14:56:46.817 [main] OpenApplication - failed
+[INFO ] 2022-01-30 14:56:48.917 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-30 14:58:29.174 [main] OpenApplication - failed
+[INFO ] 2022-01-30 14:58:31.320 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-30 15:00:05.982 [main] OpenApplication - failed
+[INFO ] 2022-01-30 15:00:08.216 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-30 15:07:09.507 [main] OpenApplication - failed
+[INFO ] 2022-01-30 15:07:11.599 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-30 15:08:50.372 [main] OpenApplication - failed
+[INFO ] 2022-01-30 15:08:52.340 [main] OpenApplication - null
+[INFO ] 2022-01-30 15:13:44.592 [main] OpenApplication - failed
+[INFO ] 2022-01-30 15:13:46.615 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-30 17:06:31.433 [main] OpenApplication - Url contains admin/viewSystemUsers
+[INFO ] 2022-01-30 17:06:39.525 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 17:06:39.563 [main] OpenApplication - Username does not match the expected username
+[INFO ] 2022-01-30 17:06:39.597 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 17:06:53.403 [main] OpenApplication - status matches the expected status
+[INFO ] 2022-01-30 17:09:17.454 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 17:09:17.475 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 17:09:17.501 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 17:09:17.522 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 17:09:17.546 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 17:11:22.751 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 17:27:19.007 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 17:28:12.140 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 17:31:17.821 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 17:32:10.112 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 17:35:17.376 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 17:47:23.176 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 17:48:08.227 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 17:52:52.908 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 17:56:35.121 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 18:00:33.997 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 18:31:59.730 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 18:32:10.844 [main] OpenApplication - status matches the expected status
+[INFO ] 2022-01-30 18:37:23.243 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 18:37:36.987 [main] OpenApplication - status matches the expected status
+[INFO ] 2022-01-30 18:40:46.107 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 18:41:04.508 [main] OpenApplication - status matches the expected status
+[INFO ] 2022-01-30 18:46:13.257 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 18:48:23.969 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 18:49:09.641 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 18:53:24.848 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 18:55:57.867 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 18:59:19.960 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 20:04:18.965 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 20:05:50.807 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 20:13:22.626 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 20:37:09.936 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 20:37:10.084 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 20:37:17.087 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 20:40:04.806 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 20:40:04.930 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 20:40:13.543 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 20:41:43.876 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 20:41:50.885 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 20:47:49.048 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 20:48:10.853 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 20:51:21.843 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 20:51:23.216 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 20:51:30.198 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 20:53:06.005 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 20:53:54.680 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 20:53:55.522 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 20:54:02.838 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 20:57:49.886 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 20:57:50.906 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 20:57:59.154 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:00:50.014 [main] OpenApplication - the add user h1 is displayed
+[INFO ] 2022-01-30 21:00:56.968 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:02:44.129 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:04:40.956 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 21:04:47.956 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:07:07.847 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 21:07:14.921 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:09:59.454 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 21:10:13.082 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:11:39.386 [main] OpenApplication - No Records Found Message is displayed
+[INFO ] 2022-01-30 21:12:27.926 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 21:12:39.794 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:23:09.178 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 21:23:22.168 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:25:40.431 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 21:25:48.293 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:28:02.898 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 21:28:10.386 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:29:27.959 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:34:36.720 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 21:34:43.702 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:38:51.342 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 21:39:00.472 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:41:31.194 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:42:34.577 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:48:09.328 [main] OpenApplication - Age not accepted
+[INFO ] 2022-01-30 21:48:16.498 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:50:12.253 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 21:56:56.450 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 21:57:03.651 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:00:41.632 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 22:00:48.757 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:01:45.900 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 22:01:53.426 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:04:28.320 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:08:06.252 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 22:08:13.600 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:11:08.803 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:19:19.132 [main] OpenApplication - Age accepted
+[INFO ] 2022-01-30 22:19:26.070 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:21:04.145 [main] OpenApplication - Age accepted
+[INFO ] 2022-01-30 22:21:11.039 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:23:05.448 [main] OpenApplication - Age accepted
+[INFO ] 2022-01-30 22:23:12.493 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:25:31.551 [main] OpenApplication - Age accepted
+[INFO ] 2022-01-30 22:25:38.475 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:26:42.189 [main] OpenApplication - Age accepted
+[INFO ] 2022-01-30 22:26:49.193 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:28:38.646 [main] OpenApplication - Age accepted
+[INFO ] 2022-01-30 22:28:45.643 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:29:57.668 [main] OpenApplication - Age accepted
+[INFO ] 2022-01-30 22:30:04.527 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:31:51.038 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 22:31:57.954 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:33:18.233 [main] OpenApplication - Age accepted
+[INFO ] 2022-01-30 22:33:25.165 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:34:26.736 [main] OpenApplication - Age accepted
+[INFO ] 2022-01-30 22:34:33.753 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:36:17.113 [main] OpenApplication - Age accepted
+[INFO ] 2022-01-30 22:36:23.996 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:37:26.895 [main] OpenApplication - Age accepted
+[INFO ] 2022-01-30 22:37:33.868 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:39:22.520 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:40:45.030 [main] OpenApplication - Status dropdown is selected to Enabled
+[INFO ] 2022-01-30 22:40:51.926 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:44:07.949 [main] OpenApplication - Employee name does not match the expected employee name
+[INFO ] 2022-01-30 22:47:25.345 [main] OpenApplication - Employee name does not match the expected employee name

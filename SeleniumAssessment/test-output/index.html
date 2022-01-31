@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Matome.Masiye\Documents\selenium_assessment\SeleniumAssessment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.Search" class="method navigator-link" hash-for-method="employeeName">employeeName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.LoginTest" class="method navigator-link" hash-for-method="checkDisplay">checkDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.ClickOnAdd" class="method navigator-link" hash-for-method="checkDisplay">checkDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.ClickAdminTab" class="method navigator-link" hash-for-method="checkDisplay">checkDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.CreateUser" class="method navigator-link" hash-for-method="createUser(Jasmine Morgan, Selenium636, Selenium500, Selenium500)">createUser(Jasmine Morgan, Selenium636, Selenium500, Selenium500)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.LoginTest" class="method navigator-link" hash-for-method="login(Admin, admin123)">login(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.OpenApplication" class="method navigator-link" hash-for-method="openUrl">openUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.Delete" class="method navigator-link" hash-for-method="validateNoRecords">validateNoRecords</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.Search" class="method navigator-link" hash-for-method="validateStatus">validateStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.CreateUser" class="method navigator-link" hash-for-method="validateStatusDropDown">validateStatusDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.Logout" class="method navigator-link" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.LoginTest" class="method navigator-link" hash-for-method="validateUrl">validateUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.ClickAdminTab" class="method navigator-link" hash-for-method="validateUrl">validateUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.Logout" class="method navigator-link" hash-for-method="validateUrl">validateUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.ClickOnAdd" class="method navigator-link" hash-for-method="validateUrlPath">validateUrlPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.CreateUser" class="method navigator-link" hash-for-method="validateUserCreated">validateUserCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.Search" class="method navigator-link" hash-for-method="validateUsername">validateUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium_assessment.LoginTest" class="method navigator-link" hash-for-method="validateWelcomeAdmin">validateWelcomeAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium_assessment.Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeName">
+                  </a> <!-- employeeName -->
+                  <span class="method-name">employeeName</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.selenium_assessment.Search.employeeName(Search.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium_assessment.CreateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(Jasmine Morgan, Selenium636, Selenium500, Selenium500)">
+                  </a> <!-- createUser(Jasmine Morgan, Selenium636, Selenium500, Selenium500) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(Jasmine Morgan, Selenium636, Selenium500, Selenium500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateStatusDropDown">
+                  </a> <!-- validateStatusDropDown -->
+                  <span class="method-name">validateStatusDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCreated">
+                  </a> <!-- validateUserCreated -->
+                  <span class="method-name">validateUserCreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium_assessment.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDisplay">
+                  </a> <!-- checkDisplay -->
+                  <span class="method-name">checkDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Admin, admin123)">
+                  </a> <!-- login(Admin, admin123) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Admin, admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUrl">
+                  </a> <!-- validateUrl -->
+                  <span class="method-name">validateUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWelcomeAdmin">
+                  </a> <!-- validateWelcomeAdmin -->
+                  <span class="method-name">validateWelcomeAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium_assessment.Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateStatus">
+                  </a> <!-- validateStatus -->
+                  <span class="method-name">validateStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUsername">
+                  </a> <!-- validateUsername -->
+                  <span class="method-name">validateUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium_assessment.Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitle">
+                  </a> <!-- validateTitle -->
+                  <span class="method-name">validateTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUrl">
+                  </a> <!-- validateUrl -->
+                  <span class="method-name">validateUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium_assessment.OpenApplication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openUrl">
+                  </a> <!-- openUrl -->
+                  <span class="method-name">openUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium_assessment.Delete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNoRecords">
+                  </a> <!-- validateNoRecords -->
+                  <span class="method-name">validateNoRecords</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium_assessment.ClickOnAdd</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDisplay">
+                  </a> <!-- checkDisplay -->
+                  <span class="method-name">checkDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUrlPath">
+                  </a> <!-- validateUrlPath -->
+                  <span class="method-name">validateUrlPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium_assessment.ClickAdminTab</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDisplay">
+                  </a> <!-- checkDisplay -->
+                  <span class="method-name">checkDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUrl">
+                  </a> <!-- validateUrl -->
+                  <span class="method-name">validateUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Matome.Masiye\Documents\selenium_assessment\SeleniumAssessment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium_assessment.ConfigClass&quot;/&gt;
+      &lt;class name=&quot;com.selenium_assessment.OpenApplication&quot;/&gt;
+      &lt;class name=&quot;com.selenium_assessment.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.selenium_assessment.ClickAdminTab&quot;/&gt;
+      &lt;class name=&quot;com.selenium_assessment.ClickOnAdd&quot;/&gt;
+      &lt;class name=&quot;com.selenium_assessment.CreateUser&quot;/&gt;
+      &lt;class name=&quot;com.selenium_assessment.Search&quot;/&gt;
+      &lt;class name=&quot;com.selenium_assessment.Delete&quot;/&gt;
+      &lt;class name=&quot;com.selenium_assessment.Logout&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'com.selenium_assessment.LoginTest')
+data.setCell(0, 3, 7126);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateNoRecords')
+data.setCell(1, 2, 'com.selenium_assessment.Delete')
+data.setCell(1, 3, 6707);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'openUrl')
+data.setCell(2, 2, 'com.selenium_assessment.OpenApplication')
+data.setCell(2, 3, 5701);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createUser')
+data.setCell(3, 2, 'com.selenium_assessment.CreateUser')
+data.setCell(3, 3, 3393);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateUserCreated')
+data.setCell(4, 2, 'com.selenium_assessment.CreateUser')
+data.setCell(4, 3, 2710);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkDisplay')
+data.setCell(5, 2, 'com.selenium_assessment.ClickAdminTab')
+data.setCell(5, 3, 76);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateStatusDropDown')
+data.setCell(6, 2, 'com.selenium_assessment.CreateUser')
+data.setCell(6, 3, 43);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkDisplay')
+data.setCell(7, 2, 'com.selenium_assessment.LoginTest')
+data.setCell(7, 3, 34);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateWelcomeAdmin')
+data.setCell(8, 2, 'com.selenium_assessment.LoginTest')
+data.setCell(8, 3, 29);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateUsername')
+data.setCell(9, 2, 'com.selenium_assessment.Search')
+data.setCell(9, 3, 26);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateStatus')
+data.setCell(10, 2, 'com.selenium_assessment.Search')
+data.setCell(10, 3, 23);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'employeeName')
+data.setCell(11, 2, 'com.selenium_assessment.Search')
+data.setCell(11, 3, 21);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkDisplay')
+data.setCell(12, 2, 'com.selenium_assessment.ClickOnAdd')
+data.setCell(12, 3, 20);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateUrl')
+data.setCell(13, 2, 'com.selenium_assessment.Logout')
+data.setCell(13, 3, 9);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateUrlPath')
+data.setCell(14, 2, 'com.selenium_assessment.ClickOnAdd')
+data.setCell(14, 3, 8);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateUrl')
+data.setCell(15, 2, 'com.selenium_assessment.ClickAdminTab')
+data.setCell(15, 3, 7);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateUrl')
+data.setCell(16, 2, 'com.selenium_assessment.LoginTest')
+data.setCell(16, 3, 6);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateTitle')
+data.setCell(17, 2, 'com.selenium_assessment.Logout')
+data.setCell(17, 3, 6);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">16 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium_assessment.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">wrapUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium_assessment.CreateUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">wrapUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium_assessment.Search</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">wrapUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium_assessment.Logout</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">wrapUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium_assessment.OpenApplication</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">wrapUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium_assessment.Delete</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">wrapUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium_assessment.ClickOnAdd</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">wrapUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium_assessment.ClickAdminTab</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">wrapUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium_assessment.ConfigClass</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium_assessment.OpenApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">2290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=openUrl status=SUCCESS method=OpenApplication.openUrl()[pri:0, instance:com.seleniu...)</span>
+                <span class="method-start">7992 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium_assessment.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login(Admin, admin123)</span>
+                <span class="method-start">7997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=login status=SUCCESS method=LoginTest.login(java.lang.String, java.lang.String)[pri...)</span>
+                <span class="method-start">15126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateUrl</span>
+                <span class="method-start">15126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=validateUrl status=SUCCESS method=LoginTest.validateUrl()[pri:2, instance:com.selen...)</span>
+                <span class="method-start">15133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkDisplay</span>
+                <span class="method-start">15133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=checkDisplay status=SUCCESS method=LoginTest.checkDisplay()[pri:3, instance:com.sel...)</span>
+                <span class="method-start">15168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateWelcomeAdmin</span>
+                <span class="method-start">15168 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=validateWelcomeAdmin status=SUCCESS method=LoginTest.validateWelcomeAdmin()[pri:4, ...)</span>
+                <span class="method-start">15197 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium_assessment.ClickAdminTab</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">clickAdminTab</span>
+                <span class="method-start">15198 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateUrl</span>
+                <span class="method-start">16876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=validateUrl status=SUCCESS method=ClickAdminTab.validateUrl()[pri:1, instance:com.s...)</span>
+                <span class="method-start">16883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkDisplay</span>
+                <span class="method-start">16884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=checkDisplay status=SUCCESS method=ClickAdminTab.checkDisplay()[pri:2, instance:com...)</span>
+                <span class="method-start">16960 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium_assessment.ClickOnAdd</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">clickAddButton</span>
+                <span class="method-start">16961 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateUrlPath</span>
+                <span class="method-start">17914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=validateUrlPath status=SUCCESS method=ClickOnAdd.validateUrlPath()[pri:1, instance:...)</span>
+                <span class="method-start">17922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkDisplay</span>
+                <span class="method-start">17923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=checkDisplay status=SUCCESS method=ClickOnAdd.checkDisplay()[pri:2, instance:com.se...)</span>
+                <span class="method-start">17944 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium_assessment.CreateUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUser(Jasmine Morgan, Selenium636, Selenium500, Selenium500)</span>
+                <span class="method-start">17944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=createUser status=SUCCESS method=CreateUser.createUser(java.lang.String, java.lang....)</span>
+                <span class="method-start">21338 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateStatusDropDown</span>
+                <span class="method-start">21339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=validateStatusDropDown status=SUCCESS method=CreateUser.validateStatusDropDown()[pr...)</span>
+                <span class="method-start">21383 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateUserCreated</span>
+                <span class="method-start">21383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=validateUserCreated status=SUCCESS method=CreateUser.validateUserCreated()[pri:3, i...)</span>
+                <span class="method-start">24093 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium_assessment.Search</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">searchForUser</span>
+                <span class="method-start">24093 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateUsername</span>
+                <span class="method-start">31197 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=validateUsername status=SUCCESS method=Search.validateUsername()[pri:1, instance:co...)</span>
+                <span class="method-start">31223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">employeeName</span>
+                <span class="method-start">31224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=employeeName status=FAILURE method=Search.employeeName()[pri:2, instance:com.seleni...)</span>
+                <span class="method-start">31247 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateStatus</span>
+                <span class="method-start">31393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=validateStatus status=SUCCESS method=Search.validateStatus()[pri:3, instance:com.se...)</span>
+                <span class="method-start">31416 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium_assessment.Delete</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">delete</span>
+                <span class="method-start">31416 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateNoRecords</span>
+                <span class="method-start">41641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=validateNoRecords status=SUCCESS method=Delete.validateNoRecords()[pri:0, instance:...)</span>
+                <span class="method-start">48349 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium_assessment.Logout</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">logout</span>
+                <span class="method-start">48349 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateUrl</span>
+                <span class="method-start">55580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=validateUrl status=SUCCESS method=Logout.validateUrl()[pri:1, instance:com.selenium...)</span>
+                <span class="method-start">55589 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateTitle</span>
+                <span class="method-start">55590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">evaluateStatus([TestResult name=validateTitle status=SUCCESS method=Logout.validateTitle()[pri:2, instance:com.sele...)</span>
+                <span class="method-start">55597 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium_assessment.ConfigClass</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">wrapUp</span>
+                <span class="method-start">55615 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
